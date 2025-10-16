@@ -17,8 +17,8 @@ This Max/MSP patch implements a dual‑tone synthesizer with selectable engines,
 
 ##  Files
 - `SoundSynthesis_MidtermProject.maxpat` — main patch
-- `img/screenshot.png` — (optional) screenshot of the patch
-- `audio/demo.mp3` — (optional) short demo clip (<10 MB)
+- `img/screenshot.png` — screenshot of the patch
+- `audio/demo.mp3` — short demo clip (<10 MB)
 
 ##  How to Use
 1. **Open** `SoundSynthesis_MidtermProject.maxpat` in Max.
