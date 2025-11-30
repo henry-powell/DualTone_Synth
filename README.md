@@ -1,2 +1,48 @@
-# Audio DSP Portfolio
-Graduate portfolio featuring MATLAB, Max/MSP, and C++ audio DSP projects in synthesis, signal analysis, and digital audio processing.
+# DualTone_Synth — Max/MSP Dual-Engine Tone Synth
+
+DualTone_Synth is a Max/MSP patch that generates rhythmic dual-tone signals using two selectable synthesis engines and an ADSR-controlled trigger system at 120 BPM. The design focuses on smooth note transitions, no clicks between triggers, and harmonic flexibility.
+
+---
+
+## Features
+- **Two synthesis engines**
+  - **Additive engine** — sums the first five odd harmonics of a fundamental
+  - **Bell-like engine** — blends two partials: *f* and *f × 1.414*
+- **ADSR envelope shaping**
+  - Attack: 50 ms → 1.0  
+  - Decay: 75 ms → 0.7  
+  - Sustain: 0.7 held for 125 ms  
+  - Release: 200 ms → 0.0
+- **K-slider pitch control** — fundamental frequency selected from the UI
+- **Click-free playback** — amplitude and envelope ramps avoid discontinuities
+- **120 BPM rhythmic trigger** — two notes per second
+
+---
+
+## File Contents
+| File | Description |
+|------|-------------|
+| `DualTone_Synth.maxpat` | Main synthesizer patch |
+| `img/screenshot.png` | UI screenshot of the synth |
+| `audio/demo.mp3` | Sample audio demo of the patch |
+
+---
+
+## How to Use
+1. Open `DualTone_Synth.maxpat` in **Max 8+**
+2. Select a frequency using the **K-slider**
+3. Pick the synthesis engine (Additive or Bell) using the radio selector
+4. Press **Start** to activate the rhythmic 120 BPM trigger
+5. Listen and adjust ADSR parameters (if you made them external)
+
+---
+
+## Technical Notes
+- Additive synthesis uses partials: *f × {1, 3, 5, 7, 9}*
+- Bell synthesis uses partials: *f* and *f × 1.414*
+- Envelope is applied at the signal domain to suppress clicks and pops
+- Normalized gain staging prevents clipping at the output
+
+---
+
+© Henry Powell — Audio DSP Development
