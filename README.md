@@ -52,4 +52,22 @@ DualTone_Synth is a Max/MSP patch that generates rhythmic dual-tone signals usin
 
 ---
 
+## Requirements
+
+- Max 8 or later (Cycling '74)
+- Audio interface or built-in system audio
+- Recommended test settings:
+  - 120 BPM trigger (metro = 500 ms)
+  - K-slider for pitch selection
+  - Output gain below clipping range (-6 dB to -12 dB headroom)
+- Works with:
+  - Built-in Max DSP settings at 44.1 kHz
+  - Optional MIDI input for external pitch control
+    
+### Optional Enhancements
+- MIDI controller for expressive pitch control
+- Full-range headphones or monitors for accurate harmonic response
+
+---
+
 © Henry Powell — Audio DSP Development
