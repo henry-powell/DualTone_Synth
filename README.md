@@ -4,6 +4,8 @@
 ![Audio DSP](https://img.shields.io/badge/Audio%20DSP-Additive%20%2B%20Modulation%20Synthesis-purple)
 ![Synthesis](https://img.shields.io/badge/Synthesis-Dual%20Engine-orange)
 ![UI](https://img.shields.io/badge/UI-DualTone%20Synth%20Interface-grey.svg)
+![Grad Program](https://img.shields.io/badge/Grad_Program-Audio_Technology_(M.A.)-6a1b9a.svg)
+![University](https://img.shields.io/badge/American_University-Washington,_DC-002855.svg)
 
 DualTone_Synth is a Max/MSP patch that generates rhythmic dual-tone signals using two selectable synthesis engines and an ADSR-controlled trigger system at 120 BPM. The design focuses on smooth note transitions, no clicks between triggers, and harmonic flexibility.
 
