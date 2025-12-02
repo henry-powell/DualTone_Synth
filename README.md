@@ -1,8 +1,8 @@
 # DualTone_Synth — Max/MSP Dual-Engine Tone Synth
-[![License MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-![Max/MSP](https://img.shields.io/badge/Max%2FMSP-Patcher-lightblue)
-![Audio DSP](https://img.shields.io/badge/Audio%20DSP-Additive%20%2B%20Modulation%20Synthesis-purple)
-![Synthesis](https://img.shields.io/badge/Synthesis-Dual%20Engine-orange)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Max/MSP](https://img.shields.io/badge/Environment-Max%2FMSP-blue.svg)](https://cycling74.com/)
+![Portfolio Project](https://img.shields.io/badge/Project-Type%3A%20Portfolio-0057b7.svg)
+[![Synthesis](https://img.shields.io/badge/Synthesis-Dual%20Engine%20(Additive%20%2B%20Bell)-purple.svg)](#)
 ![UI](https://img.shields.io/badge/UI-DualTone%20Synth%20Interface-grey.svg)
 ![Grad Program](https://img.shields.io/badge/Grad_Program-Audio_Technology_(M.A.)-6a1b9a.svg)
 ![University](https://img.shields.io/badge/American_University-Washington,_DC-002855.svg)
